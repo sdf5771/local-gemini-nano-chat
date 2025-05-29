@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-Thin.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-Thin.woff') format('woff'),
+         url('assets/fonts/Pretendard-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-ExtraLight.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-ExtraLight.woff') format('woff'),
+         url('assets/fonts/Pretendard-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-Light.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-Light.woff') format('woff'),
+         url('assets/fonts/Pretendard-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-Regular.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-Regular.woff') format('woff'),
+         url('assets/fonts/Pretendard-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-Medium.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-Medium.woff') format('woff'),
+         url('assets/fonts/Pretendard-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-SemiBold.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-SemiBold.woff') format('woff'),
+         url('assets/fonts/Pretendard-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-Bold.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-Bold.woff') format('woff'),
+         url('assets/fonts/Pretendard-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('assets/fonts/Pretendard-ExtraBold.woff2') format('woff2'),
+       url('assets/fonts/Pretendard-ExtraBold.woff') format('woff'),
+       url('assets/fonts/Pretendard-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('assets/fonts/Pretendard-Black.woff2') format('woff2'),
+         url('assets/fonts/Pretendard-Black.woff') format('woff'),
+         url('assets/fonts/Pretendard-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+html,
+body {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+}
+* {
+    font-family: 'Pretendard', sans-serif;
+    font-weight: 400;
+}
+
+:root {
+    /* 주요 컬러 */
+    /* 블루 계열 컬러 파렛트 ( https://colorhunt.co/palette/fff2f2a9b5df7886c72d336b ) 참고 */
+    --brand-primary: #7886C7;   /* 메인 컬러 */
+    --brand-secondary: #A9B5DF; /* 보조 컬러 */
+    --brand-accent: #2D336B;    /* 강조색 */
+    --brand-neutral: #FFF2F2;   /* 중립색 */
+    --brand-gray-black: #333333;
+    --brand-black: #1e293b;
+    --brand-gray-light: #eaeaea;
+    --brand-gray-dark: #9BA3AF;
+    --brand-gray-medium: #F1F5F9;
+}
