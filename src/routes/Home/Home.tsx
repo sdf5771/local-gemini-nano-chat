@@ -86,10 +86,6 @@ function Home() {
     }
   }
 
-  console.log('[Home] modelSession', modelSession);
-  console.log('[Home] isPromptAPISupported', isPromptAPISupported);
-  console.log('[Home] modelLoadState', modelLoadState);
-
   return (
     <main className="relative flex flex-col items-center justify-center h-screen w-screen">
       <BlurryBlob className="absolute top-50 left-100 translate-x-[-50%] translate-y-[-50%]" firstBlobColor="bg-purple-400" secondBlobColor="bg-blue-400" />
@@ -114,8 +110,8 @@ function Home() {
               ))
             }
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <div className="relative flex justify-center bg-gray-100 w-full h-[100px] gap-10 p-4 rounded-t-lg">
+          <div className="flex flex-col items-center justify-center m-5">
+            <div className="relative flex justify-center bg-[#ead1ff] w-full h-[100px] gap-10 p-4 rounded-xl">
               <textarea 
                 onChange={(event) => setTextAreaValue(event.target.value)} 
                 value={textAreaValue} 
@@ -129,9 +125,6 @@ function Home() {
                   }
                 }}
               />
-              {/* <div className="mt-2">
-                <ArrowButton text="Send" onClick={(event:React.MouseEvent<HTMLButtonElement>) => {console.log(event)}} />
-              </div> */}
             </div>
           </div>
         </div>
