@@ -15,7 +15,7 @@ declare global {
 }
 
 interface LanguageModelSession {
-    promptStreaming(input: string): Promise<string>;
+    promptStreaming(input: string): ReadableStream;
     destroy(): void;
 }
 
